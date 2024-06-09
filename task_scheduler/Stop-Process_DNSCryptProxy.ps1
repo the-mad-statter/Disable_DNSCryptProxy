@@ -1,0 +1,1 @@
+Get-Process | Where-Object { $_.Name -eq "dnscryptproxy" } | Select-Object -First 1 | Stop-Process -Force
